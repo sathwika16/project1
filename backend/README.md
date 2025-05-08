@@ -8,12 +8,12 @@ This folder contains the backend server code for the full-stack project. It hand
 
 backend/
 ├── controllers/ # (Optional) Request handling logic
-├── middleware/ # JWT auth middleware, etc.
+├── middleware/ # JWT auth middleware, error handling
 ├── models/ # Mongoose schemas (e.g., User.js, Task.js)
 ├── routes/ # API routes (e.g., authRoutes.js, taskRoutes.js)
 ├── .env # Environment variables (not pushed to GitHub)
-├── .gitignore # Files/folders to ignore
-├── package.json # NPM dependencies
+├── .gitignore # Git ignore rules (e.g., node_modules, .env)
+├── package.json # Project metadata and dependencies
 ├── server.js # Entry point of the backend server
 
 yaml
