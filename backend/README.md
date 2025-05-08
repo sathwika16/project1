@@ -1,10 +1,10 @@
-# Backend – Project1 (Node.js + Express + MongoDB)
+# 🛠️ Backend – Project1 (Node.js + Express + MongoDB)
 
 This folder contains the backend server code for the full-stack project. It handles user authentication, task management, and serves RESTful APIs.
 
 ---
 
-## Folder Structure
+## 📁 Folder Structure
 
 backend/
 ├── controllers/ # (Optional) Request handling logic
@@ -24,27 +24,25 @@ Edit
 
 ## ⚙️ Setup Instructions
 
-1. Navigate to the backend folder:
+### 1. Navigate to the backend folder:
 
-   ```bash
-   cd backend
-Install dependencies:
-
+```bash
+cd backend
+2. Install dependencies:
 bash
 Copy
 Edit
 npm install
-Create a .env file in this directory with the following variables:
-
+3. Create a .env file in this directory with the following variables:
 env
 Copy
 Edit
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-Start the development server:
-
+4. Start the development server:
 bash
 Copy
 Edit
 node server.js
-The server should now be running at http://localhost:5000
+The server should now be running at:
+📍 http://localhost:5000
